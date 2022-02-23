@@ -1,4 +1,4 @@
-*Html:
+**#Html**
 
 The difference between <span> and <p>:
 
@@ -11,8 +11,8 @@ The href attribute of <a> tag  stands for "Hyper reference".
 
 The <blockquote> tag specifies a section that is quoted from another s
 
-Link Tag:
-
+###Link Tag:
+```
 https://www.w3schools.com/tags/tag_link.asp
 
 The <link> tag defines the relationship between the current document and an external resource.
@@ -20,3 +20,4 @@ The <link> tag defines the relationship between the current document and an exte
 The <link> tag is most often used to link to external style sheets or to add a favicon to your website.
 
 The <link> element is an empty element, it contains attributes only.
+```
