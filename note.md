@@ -1,4 +1,4 @@
-**#Html**
+**#HTML**
 
 The difference between span and p:
 
@@ -9,9 +9,9 @@ The src attribute of img has to be relative.
 
 The href attribute of a tag  stands for "Hyper reference".
 
-The blockquote tag specifies a section that is quoted from another s
+The blockquote tag specifies a section that is quoted from another source
 
-###Link Tag:
+### Link Tag:
 ```
 https://www.w3schools.com/tags/tag_link.asp
 
@@ -21,3 +21,42 @@ The <link> tag is most often used to link to external style sheets or to add a f
 
 The <link> element is an empty element, it contains attributes only.
 ```
+
+
+**# CSS**
+
+## Selector
+
+```
+first-child: 
+if use first-child selector to ul and li, it should be like this:
+
+li: first-child{
+    xxx
+}
+
+nth-child(n){
+    xxx
+}
+```
+//style the h tag which is the only child of its parent element.
+```css
+h:only-child{
+
+}
+```
+
+
+//style the a tag following the h2 tag
+```css
+h2 + a {
+    xxx
+}
+```
+//style the button following the textarea #and they have the same parent element#
+```css
+textarea ~ button{
+    xxx
+}
+```
+
