@@ -1,15 +1,15 @@
 **#Html**
 
-The difference between <span> and <p>:
+The difference between span and p:
 
-The <span> element is inline element, and it will not start on new line.
-And <p> is block level element, and it will start on new line.
+The span element is inline element, and it will not start on new line.
+And p is block level element, and it will start on new line.
 
-The src attribute of <img> has to be relative.
+The src attribute of img has to be relative.
 
-The href attribute of <a> tag  stands for "Hyper reference".
+The href attribute of a tag  stands for "Hyper reference".
 
-The <blockquote> tag specifies a section that is quoted from another s
+The blockquote tag specifies a section that is quoted from another s
 
 ###Link Tag:
 ```
