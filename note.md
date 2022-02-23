@@ -1,1 +1,22 @@
-Username test3
+*Html:
+
+The difference between <span> and <p>:
+
+The <span> element is inline element, and it will not start on new line.
+And <p> is block level element, and it will start on new line.
+
+The src attribute of <img> has to be relative.
+
+The href attribute of <a> tag  stands for "Hyper reference".
+
+The <blockquote> tag specifies a section that is quoted from another s
+
+Link Tag:
+
+https://www.w3schools.com/tags/tag_link.asp
+
+The <link> tag defines the relationship between the current document and an external resource.
+
+The <link> tag is most often used to link to external style sheets or to add a favicon to your website.
+
+The <link> element is an empty element, it contains attributes only.
