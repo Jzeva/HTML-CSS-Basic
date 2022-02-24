@@ -26,8 +26,8 @@ The <link> element is an empty element, it contains attributes only.
 **# CSS**
 
 ## Selector
-
-```
+ Pseudo selector is more specific than general selector. 
+```css
 first-child: 
 if use first-child selector to ul and li, it should be like this:
 
@@ -42,7 +42,7 @@ nth-child(n){
 //style the h tag which is the only child of its parent element.
 ```css
 h:only-child{
-
+    xxx
 }
 ```
 
@@ -60,3 +60,18 @@ textarea ~ button{
 }
 ```
 
+//style every single li which is the direct child of the ul
+```css
+##Child Selector
+ul > li{
+    xxx
+}
+```
+
+//style every single li inside the ul
+```css
+##Descent Selector
+ul li{
+    xxx
+}
+```
