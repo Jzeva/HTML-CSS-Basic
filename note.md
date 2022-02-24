@@ -1,4 +1,4 @@
-**#HTML**
+# HTML
 
 The difference between span and p:
 
@@ -23,9 +23,9 @@ The <link> element is an empty element, it contains attributes only.
 ```
 
 
-**# CSS**
+# CSS
 
-## Selector
+### Selector
  Pseudo selector is more specific than general selector. 
 ```css
 first-child: 
@@ -39,7 +39,7 @@ nth-child(n){
     xxx
 }
 ```
-//style the h tag which is the only child of its parent element.
+Style the h tag which is the only child of its parent element.
 ```css
 h:only-child{
     xxx
@@ -47,20 +47,20 @@ h:only-child{
 ```
 
 
-//style the a tag following the h2 tag
+Style the a tag following the h2 tag
 ```css
 h2 + a {
     xxx
 }
 ```
-//style the button following the textarea #and they have the same parent element#
+Style the button following the textarea #and they have the same parent element#
 ```css
 textarea ~ button{
     xxx
 }
 ```
 
-//style every single li which is the direct child of the ul
+Style every single li which is the direct child of the ul
 ```css
 ##Child Selector
 ul > li{
