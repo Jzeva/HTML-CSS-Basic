@@ -62,16 +62,32 @@ textarea ~ button{
 
 Style every single li which is the direct child of the ul
 ```css
-##Child Selector
+//Child Selector
 ul > li{
     xxx
 }
 ```
-
-//style every single li inside the ul
+Style every single li inside the ul
 ```css
-##Descent Selector
+//Descent Selector
 ul li{
     xxx
 }
 ```
+Attribute Selector
+```css
+img[src="../img/1.jgp"]{
+    xxx
+}
+
+/* All img with scr starting with "../img/" */
+img[src^="../img/"]{
+    xxx
+}
+
+Select and style elements with a title attribute containing the word "flower":
+[title~=flower] {
+  background-color: yellow;
+}
+```
+
