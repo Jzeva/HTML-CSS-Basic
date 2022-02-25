@@ -62,14 +62,14 @@ textarea ~ button{
 
 Style every single li which is the direct child of the ul
 ```css
-//Child Selector
+/* Child Selector */
 ul > li{
     xxx
 }
 ```
 Style every single li inside the ul
 ```css
-//Descent Selector
+/* Descent Selector */
 ul li{
     xxx
 }
